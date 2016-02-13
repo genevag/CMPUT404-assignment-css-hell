@@ -1,0 +1,324 @@
+html {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+}
+
+/* CSS Taken from : https://css-tricks.com/perfect-full-page-background-image/ */
+/* Image from : http://peterfinlan.com/img/design.jpg */
+html { 
+  background: url('design.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* ------------------------------------------------ */
+
+body {
+  margin: 0px;
+}
+
+/* Taken & Modified from : https://wdexplorer.com/20-examples-beautiful-css-typography-design/ */
+h1.quote { color: #03A9F4; font-family: "Great Vibes"; font-size: 30pt; text-align: center; max-width: 350px; margin-bottom: 0px; padding-left: 1em;}
+
+.name-header{
+  font-size: 2.1em !important;
+  font-weight: 100 !important;
+  margin-bottom: 0;
+  margin-top: 0.2em;
+  color: white;
+}
+.sidebar {
+  position: fixed;
+  min-width: 235px;
+  height: 100%;
+  background-color: rgba(3, 169, 245, 0.52);
+  overflow: scroll;
+}
+
+.container {
+  position: fixed;
+  left: 235px;
+  padding: 2em;
+  height: 90%;
+  overflow: scroll;
+  color: white;
+}
+
+img.profile-photo {
+  border-radius: 50%;
+  height: 14em;
+  border: 8px solid #C0C0C0;
+  right: 5%;
+  margin-top: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 1em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+}
+
+li > a {
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-size: 20pt !important;
+}
+
+li > a:hover {
+  color: black;
+}
+
+li > a:active {
+  color: black;
+}
+
+.landing-page{
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.panel {
+  height: 90%;
+  width: 100%;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.heading-underline {
+  display: block;
+  background-color: #03A9F4;
+  width: 250px;
+  height: 8px;
+  margin-top: 0px;
+}
+
+.heading {
+  margin-bottom: 5px;
+}
+
+.name-header-underline {
+  display: block;
+  background-color: white;
+  width: 150px;
+  height: 4px;
+  margin-top: 7px;  
+}
+
+.experience-item {
+  margin-top: 2em;
+  padding-right: 1em;
+}
+
+
+.exp-title {
+  margin: 0px;
+}
+
+span.exp-location {
+  float: left;
+}
+
+span.exp-year {
+  float: right;
+  padding-right: 3.5em;
+}
+
+p.exp-description {
+  padding-right: 2em;
+  margin: 0px;
+  padding-top: 0.5em;
+}
+
+h5 {
+  margin-top: 0.5em;
+}
+
+.social {
+  margin: 1em;
+  padding-bottom: 1em;
+}
+
+.x-large {
+  font-weight: 600;
+  font-size: 30pt;
+}
+
+h1.large {
+  font-weight: 500;
+}
+
+
+.quote-box {
+  max-width: 40%;
+  float: right; 
+  right: 0px;
+  padding: 2em;
+  position: absolute;
+}
+
+.quote-author {
+  float: right;
+  color: #03A9F4;
+}
+
+#full-stack {
+  float: right;
+  max-width: 300px;
+}
+
+p.content {
+  width: 60%;
+  float: left;
+}
+
+p.skills-content {
+  width: 100%;
+  float: left;
+}
+
+/* Taken & modified from materializecss.com */
+/* -------------- MATERIALIZE CSS ------------- */
+/* ---------------- CARD ------------------ */
+.card-panel, .card{
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
+
+.card-panel {
+  transition: box-shadow .25s;
+  padding: 20px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff; }
+
+.card {
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem 0 1rem 0;
+  background-color: #fff;
+  transition: box-shadow .25s;
+  border-radius: 2px; }
+  .card .card-title {
+    color: #fff;
+    /*font-size: 24px;*/
+    font-size: 20px;
+    font-weight: 300; }
+    .card .card-title.activator {
+      cursor: pointer; }
+  .card.small, .card.medium, .card.large {
+    position: relative; }
+    .card.small .card-image, .card.medium .card-image, .card.large .card-image {
+      overflow: hidden; }
+    .card.small .card-content, .card.medium .card-content, .card.large .card-content {
+      overflow: hidden; }
+    .card.small .card-action, .card.medium .card-action, .card.large .card-action {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+  .card.small {
+    height: 300px; }
+    .card.small .card-image {
+      height: 150px; }
+    .card.small .card-content {
+      height: 150px; }
+  .card.medium {
+    height: 400px; }
+    .card.medium .card-image {
+      height: 250px; }
+    .card.medium .card-content {
+      height: 150px; }
+  .card.large {
+    height: 500px; }
+    .card.large .card-image {
+      height: 330px; }
+    .card.large .card-content {
+      height: 170px; }
+  .card .card-image {
+    position: relative; }
+    .card .card-image img {
+      display: block;
+      border-radius: 2px 2px 0 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%; }
+    .card .card-image .card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 20px; }
+  .card .card-content {
+    padding: 20px;
+    border-radius: 0 0 2px 2px; }
+    .card .card-content p {
+      margin: 0;
+      color: inherit; }
+    .card .card-content .card-title {
+      line-height: 48px; }
+  .card .card-action {
+    border-top: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px; }
+    .card .card-action a {
+      color: #ffab40;
+      margin-right: 20px;
+      -webkit-transition: color .3s ease;
+      -moz-transition: color .3s ease;
+      -o-transition: color .3s ease;
+      -ms-transition: color .3s ease;
+      transition: color .3s ease;
+      text-transform: uppercase; }
+      .card .card-action a:hover {
+        color: #ffd8a6; }
+  .card .card-reveal {
+    /*padding: 20px;*/
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    overflow-y: auto;
+    top: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none; }
+    .card .card-reveal .card-title {
+      cursor: pointer;
+      display: block; }
+
+
+.grey-text.text-darken-4 {
+  color: #212121 !important;
+}
+
+i.right {
+  float: right;
+  margin-left: 15px;
+}
+/* ------------------------------------------------ */
+
+.card {
+  width: 250px;
+  position: relative;
+  float: left;
+  margin: 0.5em;
+}
+
+div {
+  display: block;
+}
+
+span.card-reveal-title {
+  margin: 1em;
+}
+
+p.card-reveal-content {
+  margin: 1.5em;
+  color: black;
+}

@@ -42,3 +42,14 @@ Changes Made:
 - limited images to a maxiumum of 50% of the page width
 - added a border to the images & rounded its corners
 
+
+Part II:
+Social Media Icons are from : http://tomswebspace.com/round-social-media-icons/
+Good CSS Background image is from : http://peterfinlan.com/img/design.jpg
+Bad CSS Background Image is from : http://www.zingerbug.com/Backgrounds/background_images/pink_and_purple_lights_seamless_texture.jpg
+
+Some snippets of CSS are taken & modified from :
+https://css-tricks.com/perfect-full-page-background-image/
+https://wdexplorer.com/20-examples-beautiful-css-typography-design/
+
+Good & Bad CSS files contain a snippet of code from Materialize (instead of including all of Materialize's CSS for everything)
