@@ -1,5 +1,5 @@
 html {
-	font-family: 'Slabo 27px', serif;
+	font-family: 'IM Fell English', serif;
 }
 
 body {
@@ -21,27 +21,34 @@ h2 {
 }
 
 p {
-/*	font-family: 'Slabo 27px', serif;*/
 	font-size: 15pt;
 	text-indent: 0pt;
 	margin-bottom: 1em;
 }
+
+/* table of contents */
+p.toc {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	font-size: medium;
+	color: #08088A;
+}
+
 
 p.pfirst {
 	text-indent: 22pt;
 }
 
 .dropcap {
-	font-family: 'Pacifico', cursive;
 	margin-right: 0.3em !important;
 	margin-bottom: 0.1em !important;
 }
 
 img {
-	max-width: 50%;
+	max-width: 60%;
 	height: auto;
 	border-radius: 15px;
-	border: 1px dashed #880000;
+	border: 2px dashed #880000;
 }
 
 a {
